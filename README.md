@@ -62,7 +62,7 @@ Instead of keeping most of the logic inside notebooks, I would refactor everythi
 Essentially, I would move from a notebook-driven workflow to a production-ready MLOps pipeline that is automated, maintainable, testable, and capable of handling continuous data updates
 
 - One question or topic you want to explore further
-I would like to explore further the ability to create a reproducible pipeline that can preprocess data, train a model and deploy it to make predictions
+I want to explore how to build a fully reproducible, end-to-end machine learning pipeline—one that can take raw data, preprocess it consistently, train a model, register the resulting artifact, and deploy it automatically for real-time or scheduled predictions. I’ve built parts of this during the project, but I want to go deeper into the operational side: versioning data, tracking experiments, automating retraining, and managing deployed models in a way that is stable and production-ready. Understanding how to design this kind of pipeline would not only strengthen my MLOps skills but also make my future projects easier to maintain, scale, and monitor
 
 
 
