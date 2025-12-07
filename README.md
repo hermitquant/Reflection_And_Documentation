@@ -21,7 +21,7 @@ I used Windsurf as both a coding assistant and a project-structuring tool across
 
 - For the train-test split experiments, Windsurf accelerated the workflow by generating synthetic datasets, plotting the effects of different split ratios, and helping me build walk-forward and temporal split routines. It allowed me to quickly test ideas that would normally take hours to code manually.
 
-- Overall, I relied on Windsurf for rapid scaffolding, code generation, analysis, and iterative improvements—especially when I wanted to treat the work like a real production project with repeatable pipelines and CI/CD-ready components.
+- Overall, I relied on Windsurf for rapid scaffolding, code generation, analysis, and iterative improvements—especially when I wanted to treat the work like a real production project with repeatable pipelines and CI/CD-ready components
 
 - **What prompts or approaches were most effective?**
 The most effective pattern was using detailed, explicit prompts combined with a strong persona. When I asked Windsurf to “act as an experienced ML engineer” and then requested a project structure or a specific implementation, the results were significantly better—more idiomatic, more realistic, and closer to industry standards.
@@ -34,6 +34,7 @@ Windsurf occasionally produced errors, especially when paired with high-reasonin
 - There were also issues accessing the Hugging Face dataset API from within Windsurf’s environment. To work around that, I guided Windsurf to use alternative dataset-loading strategies (manual downloads, direct parquet reads, or simplified URLs).
 
 - When errors surfaced in multi-file codebases, Windsurf sometimes needed very explicit guidance about which file to inspect. Giving it the full stack trace and a pointer to the suspected file usually resolved this
+
 
 - **How did using Windsurf change your learning process?**
 Windsurf dramatically accelerated my learning because it removed the friction of setup and boilerplate. I could move straight into analysis, modelling, and experimentation. For example, being able to generate synthetic datasets quickly allowed me to test the effects of different train-test splits on model performance without waiting for real-world datasets to download or preprocess.
